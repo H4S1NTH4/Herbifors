@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class DeliveryOrder implements Serializable {
 
-    private int id;  // Auto-generated in the database
+    private int id;
     private String customer;
     private String address;
     private String item;
